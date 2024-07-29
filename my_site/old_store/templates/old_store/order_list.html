@@ -1,0 +1,31 @@
+{% extends 'old_store/base.html' %}
+{% block title %}
+  Order list
+{% endblock %}
+
+{% block body %}
+  <h1>Спиcок заказов:</h1>
+  {% if object_list %}
+    <div>
+      {% for order in object_list %}
+        <div>
+          <a href="{% url 'old_store:order_details' pk=order.pk %}">Details: {{ order.pk }}</a>
+          <p>Order by {% firstof order.user.first_name order.user.username %} </p>
+          <p>Promocode: <code>{{ order.promocode }}</code></p>
+          <p>Dilivery address:{{ order.dilivery_address }}</p>
+          <div>
+            Product in order:
+            <ul>
+              {% for product in order.products.all %}
+                <li>{{ product.name }} for $ {{ product.price }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+  {% else %}
+    <h3> No order now</h3>
+  {% endif %}
+{% endblock %}

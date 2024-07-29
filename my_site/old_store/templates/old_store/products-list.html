@@ -1,0 +1,54 @@
+{% extends 'old_store/base.html' %}
+{% load i18n %}
+{% load static %}
+{#{% load x %}#}
+
+{% block title %}
+  {% translate "Product list" %}
+
+
+{% endblock %}
+
+{% block body %}
+  <h1>  {% translate 'Products' %}: </h1>
+  {% if products %}
+    <div>
+      {% blocktranslate count product_count=products|length %}
+        There is only one product.
+        {% plural %}
+        There are {{ product_count }} products.
+      {% endblocktranslate %}
+    </div>
+    <div>
+      {% for product in products %}
+        <div>
+          <p><a href="{% url 'old_store:products_details' pk=product.pk %}"
+          >{% translate 'Name' context 'product name' %}: {{ product.name }}</a></p>
+          <p>{% translate 'Price' %}: {{ product.price }}</p>
+          {% translate 'no discount' as no_discount %}
+          <p>{% translate 'Discount' %}: {% firstof product.discount no_discount %} </p>
+          {% if product.preview %}
+            <img src="{{ product.preview.url }}" alt="{{ product.preview.name }}">
+
+          {% endif %}
+        </div>
+        </div>
+      {% endfor %}
+    <div>
+      <a href="{% url 'old_store:product_create' %}"
+      >{% translate 'Create a new product' %}</a>
+    </div>
+
+  {% else %}
+    {% url 'old_store:product_create' as create_product_url %}
+    {% blocktranslate %}
+      <h3>No product yet</h3>
+      <a href="{{ create_product_url }}"
+      >Create a new one </a>
+    {% endblocktranslate %}
+
+  {% endif %}
+
+{% endblock %}
+
+{#'old_store:product_create'#}

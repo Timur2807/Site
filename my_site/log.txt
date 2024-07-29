@@ -1,0 +1,217 @@
+2024-06-05 10:39:23,580 [INFO] django.server: "GET /shop/ HTTP/1.1" 200 1774
+2024-06-05 10:39:24,237 [INFO] django.server: "GET /shop/ HTTP/1.1" 200 2702
+2024-06-05 12:11:30,528 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-06-05 12:21:42,838 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-06-05 12:22:11,129 [INFO] django.server: "GET /shop/orders/ HTTP/1.1" 302 0
+2024-06-05 12:22:11,452 [INFO] django.server: "GET /myauth/login/?next=/shop/orders/ HTTP/1.1" 200 13357
+2024-06-05 12:22:11,561 [INFO] django.server: "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14601
+2024-06-05 12:22:11,563 [INFO] django.server: "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 16630
+2024-06-05 12:22:11,585 [INFO] django.server: "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+2024-06-05 12:22:11,643 [INFO] django.server: "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4742
+2024-06-05 12:23:06,696 [INFO] django.server: "POST /myauth/login/?next=/shop/orders/ HTTP/1.1" 302 0
+2024-06-05 12:23:07,260 [INFO] django.server: "GET /shop/orders/ HTTP/1.1" 200 16027
+2024-06-05 12:23:54,636 [INFO] django.server: "GET /__debug__/render_panel/?store_id=0b39cf7339c84f42a0ba016663e94e39&panel_id=HistoryPanel HTTP/1.1" 200 7583
+2024-06-05 12:23:54,656 [INFO] django.server: "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3515
+2024-06-05 12:25:15,502 [INFO] django.server: "GET /__debug__/history_refresh/?store_id=0b39cf7339c84f42a0ba016663e94e39&exclude_history=True HTTP/1.1" 200 6978
+2024-06-05 12:25:27,075 [INFO] django.server: "GET /__debug__/render_panel/?store_id=0b39cf7339c84f42a0ba016663e94e39&panel_id=VersionsPanel HTTP/1.1" 200 995
+2024-06-05 12:25:39,577 [INFO] django.server: "GET /__debug__/render_panel/?store_id=0b39cf7339c84f42a0ba016663e94e39&panel_id=SettingsPanel HTTP/1.1" 200 27540
+2024-06-05 12:25:54,067 [INFO] django.server: "GET /__debug__/render_panel/?store_id=0b39cf7339c84f42a0ba016663e94e39&panel_id=HeadersPanel HTTP/1.1" 200 4492
+2024-06-05 12:25:59,268 [INFO] django.server: "GET /__debug__/render_panel/?store_id=0b39cf7339c84f42a0ba016663e94e39&panel_id=RequestPanel HTTP/1.1" 200 1855
+2024-06-05 12:26:17,870 [INFO] django.server: "GET /__debug__/render_panel/?store_id=0b39cf7339c84f42a0ba016663e94e39&panel_id=SQLPanel HTTP/1.1" 200 63228
+2024-06-05 12:26:39,673 [INFO] django.server: "GET /__debug__/render_panel/?store_id=0b39cf7339c84f42a0ba016663e94e39&panel_id=TemplatesPanel HTTP/1.1" 200 6243
+2024-06-05 12:26:56,020 [INFO] django.server: "GET /__debug__/render_panel/?store_id=0b39cf7339c84f42a0ba016663e94e39&panel_id=SignalsPanel HTTP/1.1" 200 2242
+2024-06-05 13:05:22,647 [INFO] django.server: "POST /__debug__/sql_select/ HTTP/1.1" 200 1729
+2024-06-05 13:05:38,212 [INFO] django.server: "POST /__debug__/sql_select/ HTTP/1.1" 200 2754
+2024-06-05 13:06:35,164 [INFO] django.server: "GET /__debug__/render_panel/?store_id=0b39cf7339c84f42a0ba016663e94e39&panel_id=StaticFilesPanel HTTP/1.1" 200 42351
+2024-06-05 13:07:11,769 [INFO] django.server: "GET /__debug__/template_source/?template=old_store/order_list.html&template_origin=IkM6XFxVc2Vyc1xcdXNlclxcRGVza3RvcFxcUHJvamVjdHNcXHNpdGVcXG15X3NpdGVcXG9sZF9zdG9yZVxcdGVtcGxhdGVzXFxvbGRfc3RvcmVcXG9yZGVyX2xpc3QuaHRtbCI:1sEmrL:8M3Swb0y4e6hGBWaOE2UvmGCP6yCSinksRtf3Pi5ODw HTTP/1.1" 200 1442
+2024-06-05 13:07:16,399 [INFO] django.server: "GET /__debug__/render_panel/?store_id=0b39cf7339c84f42a0ba016663e94e39&panel_id=CachePanel HTTP/1.1" 200 1413
+2024-06-05 13:08:10,676 [INFO] django.server: "GET /shop/orders/ HTTP/1.1" 200 16416
+2024-06-05 13:08:10,928 [INFO] django.server: "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+2024-06-05 13:08:10,933 [INFO] django.server: "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+2024-06-05 13:08:11,105 [INFO] django.server: "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+2024-06-05 13:08:11,217 [INFO] django.server: "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+2024-06-05 13:08:13,986 [INFO] django.server: "GET /__debug__/render_panel/?store_id=ccfa65e5b8994cd190d78da64d888e2a&panel_id=ProfilingPanel HTTP/1.1" 200 17890
+2024-06-06 14:47:25,250 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-06-06 14:47:32,752 [WARNING] django.request: Not Found: /
+2024-06-06 14:47:32,755 [WARNING] django.server: "GET / HTTP/1.1" 404 15942
+2024-06-06 14:47:32,879 [INFO] django.server: "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+2024-06-06 14:47:32,880 [INFO] django.server: "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+2024-06-06 14:47:32,998 [INFO] django.server: "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+2024-06-06 14:47:33,148 [INFO] django.server: "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+2024-06-06 14:47:48,696 [INFO] django.server: "GET /shop/products/export/ HTTP/1.1" 200 626
+2024-06-06 14:49:45,944 [INFO] django.utils.autoreload: C:\Users\user\Desktop\Projects\site\my_site\old_store\views.py changed, reloading.
+2024-06-06 14:49:50,523 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-06-06 14:50:09,349 [INFO] django.utils.autoreload: C:\Users\user\Desktop\Projects\site\my_site\old_store\views.py changed, reloading.
+2024-06-06 14:50:12,560 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-06-06 14:50:33,899 [INFO] django.utils.autoreload: C:\Users\user\Desktop\Projects\site\my_site\old_store\views.py changed, reloading.
+2024-06-06 14:50:36,750 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-06-06 14:51:03,612 [INFO] django.utils.autoreload: C:\Users\user\Desktop\Projects\site\my_site\old_store\views.py changed, reloading.
+2024-06-06 14:51:07,102 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-06-06 14:51:30,654 [INFO] django.utils.autoreload: C:\Users\user\Desktop\Projects\site\my_site\old_store\views.py changed, reloading.
+2024-06-06 14:51:36,671 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-06-06 14:51:53,534 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-06-06 14:51:59,985 [INFO] django.server: "GET /shop/products/export/ HTTP/1.1" 200 626
+2024-06-06 14:52:02,406 [INFO] django.server: "GET /shop/products/export/ HTTP/1.1" 200 626
+2024-06-06 14:52:43,655 [INFO] django.utils.autoreload: C:\Users\user\Desktop\Projects\site\my_site\old_store\views.py changed, reloading.
+2024-06-06 14:52:47,559 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-06-06 14:52:54,794 [ERROR] django.request: Internal Server Error: /shop/products/export/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Projects\site\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\Projects\site\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\Projects\site\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\Projects\site\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\Projects\site\my_site\old_store\views.py", line 229, in get
+    name = elem['naem']
+KeyError: 'naem'
+2024-06-06 14:52:55,188 [ERROR] django.server: "GET /shop/products/export/ HTTP/1.1" 500 97049
+2024-06-06 15:01:40,513 [INFO] django.utils.autoreload: C:\Users\user\Desktop\Projects\site\my_site\old_store\views.py changed, reloading.
+2024-06-06 15:01:43,435 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-06-06 15:01:51,126 [INFO] django.server: "GET /shop/products/export/ HTTP/1.1" 200 626
+2024-07-29 09:54:29,541 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-29 09:54:40,446 [WARNING] django.request: Not Found: /
+2024-07-29 09:54:40,451 [WARNING] django.server: "GET / HTTP/1.1" 404 15772
+2024-07-29 09:54:40,792 [INFO] django.server: "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 16630
+2024-07-29 09:54:40,944 [INFO] django.server: "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14601
+2024-07-29 09:54:40,992 [INFO] django.server: "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+2024-07-29 09:54:41,180 [INFO] django.server: "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4742
+2024-07-29 09:54:41,881 [WARNING] django.request: Not Found: /favicon.ico
+2024-07-29 09:54:41,951 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 15833
+2024-07-29 09:54:54,398 [INFO] django.server: "GET /shop/ HTTP/1.1" 200 14961
+2024-07-29 09:55:04,210 [INFO] django.server: "GET /shop/products/1/ HTTP/1.1" 200 13366
+2024-07-29 09:55:09,867 [INFO] django.server: "GET /shop/products/ HTTP/1.1" 200 14485
+2024-07-29 09:55:10,105 [INFO] django.server: "GET /media/products/product_None/preview/5443238418287adb9817b3d4af48c6c8.jpg HTTP/1.1" 200 414658
+2024-07-29 09:55:21,971 [INFO] django.server: "GET /shop/products/7/ HTTP/1.1" 200 13349
+2024-07-29 09:55:34,151 [INFO] django.server: "GET /shop/products/ HTTP/1.1" 200 14484
+2024-07-29 09:59:36,433 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-29 09:59:41,559 [INFO] django.server: "GET /shop/products/ HTTP/1.1" 200 14564
+2024-07-29 09:59:45,563 [INFO] django.server: "GET /shop/products/ HTTP/1.1" 200 14562
+2024-07-29 09:59:47,777 [INFO] django.server: "GET /shop/products/ HTTP/1.1" 200 14562
+2024-07-29 09:59:47,961 [INFO] django.server: "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+2024-07-29 09:59:47,962 [INFO] django.server: "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14601
+2024-07-29 09:59:47,973 [INFO] django.server: "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 16630
+2024-07-29 09:59:48,076 [INFO] django.server: "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4742
+2024-07-29 09:59:48,240 [INFO] django.server: - Broken pipe from ('127.0.0.1', 53407)
+2024-07-29 09:59:48,317 [INFO] django.server: "GET /media/products/product_None/preview/5443238418287adb9817b3d4af48c6c8.jpg HTTP/1.1" 200 414658
+2024-07-29 09:59:48,412 [INFO] django.server: - Broken pipe from ('127.0.0.1', 53410)
+2024-07-29 09:59:48,550 [INFO] django.server: - Broken pipe from ('127.0.0.1', 53409)
+2024-07-29 09:59:48,636 [INFO] django.server: "GET /shop/products/ HTTP/1.1" 200 14563
+2024-07-29 09:59:48,687 [WARNING] django.request: Not Found: /favicon.ico
+2024-07-29 09:59:48,700 [INFO] django.server: - Broken pipe from ('127.0.0.1', 53411)
+2024-07-29 09:59:48,765 [INFO] django.server: "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+2024-07-29 09:59:48,781 [INFO] django.server: "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 16630
+2024-07-29 09:59:48,784 [INFO] django.server: "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14601
+2024-07-29 09:59:48,851 [INFO] django.server: "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4742
+2024-07-29 09:59:48,908 [INFO] django.server: "GET /media/products/product_None/preview/5443238418287adb9817b3d4af48c6c8.jpg HTTP/1.1" 200 414658
+2024-07-29 09:59:49,137 [WARNING] django.request: Not Found: /favicon.ico
+2024-07-29 09:59:49,144 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 15833
+2024-07-29 10:00:35,994 [WARNING] django.request: Not Found: /
+2024-07-29 10:00:35,998 [WARNING] django.server: "GET / HTTP/1.1" 404 15771
+2024-07-29 10:00:50,251 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-29 10:00:53,342 [WARNING] django.request: Not Found: /
+2024-07-29 10:00:53,347 [WARNING] django.server: "GET / HTTP/1.1" 404 15771
+2024-07-29 10:01:13,159 [INFO] django.server: "GET /shop/products/ HTTP/1.1" 200 14563
+2024-07-29 10:02:05,484 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-07-29 10:02:12,671 [INFO] django.server: "GET /shop/products/ HTTP/1.1" 200 14562
+2024-07-29 10:02:12,921 [INFO] django.server: "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 16630
+2024-07-29 10:02:13,164 [INFO] django.server: "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14601
+2024-07-29 10:02:13,173 [INFO] django.server: "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+2024-07-29 10:02:13,213 [INFO] django.server: "GET /media/products/product_None/preview/5443238418287adb9817b3d4af48c6c8.jpg HTTP/1.1" 200 414658
+2024-07-29 10:02:13,224 [INFO] django.server: "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4742
+2024-07-29 10:02:15,907 [INFO] django.server: "GET /shop/products/ HTTP/1.1" 200 14560
+2024-07-29 10:03:55,495 [INFO] django.server: "GET /shop/products/ HTTP/1.1" 200 14560
+2024-07-29 10:03:58,557 [INFO] django.server: "GET /shop/products/ HTTP/1.1" 200 14560
+2024-07-29 10:03:58,715 [INFO] django.server: "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 16630
+2024-07-29 10:03:58,729 [INFO] django.server: "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+2024-07-29 10:03:58,753 [INFO] django.server: "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14601
+2024-07-29 10:03:58,794 [INFO] django.server: "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4742
+2024-07-29 10:03:58,936 [INFO] django.server: - Broken pipe from ('127.0.0.1', 53446)
+2024-07-29 10:03:59,029 [INFO] django.server: "GET /media/products/product_None/preview/5443238418287adb9817b3d4af48c6c8.jpg HTTP/1.1" 200 414658
+2024-07-29 10:03:59,070 [INFO] django.server: - Broken pipe from ('127.0.0.1', 53475)
+2024-07-29 10:03:59,511 [INFO] django.server: - Broken pipe from ('127.0.0.1', 53447)
+2024-07-29 10:03:59,514 [WARNING] django.request: Not Found: /favicon.ico
+2024-07-29 10:03:59,565 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 15880
+2024-07-29 10:03:59,596 [INFO] django.server: - Broken pipe from ('127.0.0.1', 53449)
+2024-07-29 10:03:59,734 [INFO] django.server: - Broken pipe from ('127.0.0.1', 53477)
+2024-07-29 10:03:59,827 [INFO] django.server: - Broken pipe from ('127.0.0.1', 53478)
+2024-07-29 10:03:59,882 [INFO] django.server: - Broken pipe from ('127.0.0.1', 53476)
+2024-07-29 10:03:59,984 [INFO] django.server: - Broken pipe from ('127.0.0.1', 53479)
+2024-07-29 10:04:00,082 [INFO] django.server: "GET /shop/products/ HTTP/1.1" 200 14561
+2024-07-29 10:04:00,188 [INFO] django.server: "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 16630
+2024-07-29 10:04:00,228 [INFO] django.server: "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14601
+2024-07-29 10:04:00,247 [INFO] django.server: "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+2024-07-29 10:04:00,277 [INFO] django.server: "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4742
+2024-07-29 10:04:00,335 [INFO] django.server: "GET /media/products/product_None/preview/5443238418287adb9817b3d4af48c6c8.jpg HTTP/1.1" 200 414658
+2024-07-29 10:04:00,571 [WARNING] django.request: Not Found: /favicon.ico
+2024-07-29 10:04:00,574 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 15833
+2024-07-29 10:06:07,724 [INFO] django.server: "GET /shop/products/ HTTP/1.1" 200 14564
+2024-07-29 10:06:07,902 [WARNING] django.server: "GET /static/old_store/base.css HTTP/1.1" 404 1813
+2024-07-29 10:06:11,771 [INFO] django.server: "GET /shop/products/ HTTP/1.1" 200 14563
+2024-07-29 10:06:11,889 [INFO] django.server: "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 16630
+2024-07-29 10:06:11,900 [WARNING] django.server: "GET /static/old_store/base.css HTTP/1.1" 404 1813
+2024-07-29 10:06:11,921 [INFO] django.server: "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14601
+2024-07-29 10:06:11,939 [INFO] django.server: "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+2024-07-29 10:06:11,997 [INFO] django.server: "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4742
+2024-07-29 10:06:12,052 [INFO] django.server: "GET /media/products/product_None/preview/5443238418287adb9817b3d4af48c6c8.jpg HTTP/1.1" 200 414658
+2024-07-29 10:06:12,283 [WARNING] django.request: Not Found: /favicon.ico
+2024-07-29 10:06:12,286 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 15833
+2024-07-29 10:06:13,251 [INFO] django.server: "GET /shop/products/ HTTP/1.1" 200 14563
+2024-07-29 10:06:13,366 [WARNING] django.server: "GET /static/old_store/base.css HTTP/1.1" 404 1813
+2024-07-29 10:06:13,380 [INFO] django.server: "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 16630
+2024-07-29 10:06:13,411 [INFO] django.server: "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+2024-07-29 10:06:13,421 [INFO] django.server: "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14601
+2024-07-29 10:06:13,472 [INFO] django.server: "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4742
+2024-07-29 10:06:13,538 [INFO] django.server: "GET /media/products/product_None/preview/5443238418287adb9817b3d4af48c6c8.jpg HTTP/1.1" 200 414658
+2024-07-29 10:06:13,766 [WARNING] django.request: Not Found: /favicon.ico
+2024-07-29 10:06:13,770 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 15833
+2024-07-29 10:06:14,002 [INFO] django.server: "GET /shop/products/ HTTP/1.1" 200 14563
+2024-07-29 10:06:14,212 [INFO] django.server: "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 16630
+2024-07-29 10:06:14,255 [INFO] django.server: "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+2024-07-29 10:06:14,256 [INFO] django.server: "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14601
+2024-07-29 10:06:14,265 [WARNING] django.server: "GET /static/old_store/base.css HTTP/1.1" 404 1813
+2024-07-29 10:06:14,285 [INFO] django.server: "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4742
+2024-07-29 10:06:14,388 [INFO] django.server: "GET /media/products/product_None/preview/5443238418287adb9817b3d4af48c6c8.jpg HTTP/1.1" 200 414658
+2024-07-29 10:06:14,688 [WARNING] django.request: Not Found: /favicon.ico
+2024-07-29 10:06:14,702 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 15833
+2024-07-29 10:06:14,725 [INFO] django.server: "GET /shop/products/ HTTP/1.1" 200 14564
+2024-07-29 10:06:14,861 [WARNING] django.server: "GET /static/old_store/base.css HTTP/1.1" 404 1813
+2024-07-29 10:06:14,870 [INFO] django.server: "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 16630
+2024-07-29 10:06:14,871 [INFO] django.server: "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14601
+2024-07-29 10:06:14,931 [INFO] django.server: "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+2024-07-29 10:06:14,953 [INFO] django.server: "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4742
+2024-07-29 10:06:15,018 [INFO] django.server: "GET /media/products/product_None/preview/5443238418287adb9817b3d4af48c6c8.jpg HTTP/1.1" 200 414658
+2024-07-29 10:06:15,460 [INFO] django.server: "GET /shop/products/ HTTP/1.1" 200 14563
+2024-07-29 10:06:15,582 [INFO] django.server: "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 16630
+2024-07-29 10:06:15,586 [WARNING] django.server: "GET /static/old_store/base.css HTTP/1.1" 404 1813
+2024-07-29 10:06:15,621 [INFO] django.server: "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+2024-07-29 10:06:15,623 [INFO] django.server: "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14601
+2024-07-29 10:06:15,651 [INFO] django.server: "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4742
+2024-07-29 10:06:15,733 [INFO] django.server: "GET /media/products/product_None/preview/5443238418287adb9817b3d4af48c6c8.jpg HTTP/1.1" 200 414658
+2024-07-29 10:06:15,979 [WARNING] django.request: Not Found: /favicon.ico
+2024-07-29 10:06:15,984 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 15833
+2024-07-29 10:06:49,420 [INFO] django.server: "GET /api/swagger/ HTTP/1.1" 200 17280
+2024-07-29 10:08:23,128 [INFO] django.server: "GET /api/ HTTP/1.1" 200 17872
+2024-07-29 10:08:23,336 [INFO] django.server: "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+2024-07-29 10:08:23,345 [INFO] django.server: "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+2024-07-29 10:08:23,346 [INFO] django.server: "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+2024-07-29 10:08:23,455 [INFO] django.server: "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+2024-07-29 10:08:23,470 [INFO] django.server: "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+2024-07-29 10:08:23,499 [INFO] django.server: "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+2024-07-29 10:08:23,524 [INFO] django.server: "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+2024-07-29 10:08:23,574 [INFO] django.server: "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+2024-07-29 10:08:23,578 [INFO] django.server: "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+2024-07-29 10:08:23,613 [INFO] django.server: "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+2024-07-29 10:08:23,649 [INFO] django.server: "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+2024-07-29 10:08:23,662 [INFO] django.server: "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+2024-07-29 10:08:29,646 [INFO] django.server: "GET /api/products/ HTTP/1.1" 200 27789
+2024-07-29 10:08:29,920 [INFO] django.server: "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+2024-07-29 10:08:41,738 [INFO] django.server: "GET /api/swagger/ HTTP/1.1" 200 17279
+2024-07-29 10:09:16,682 [INFO] django.server: "GET /api/swagger/ HTTP/1.1" 200 17279
+2024-07-29 10:09:16,735 [INFO] django.server: "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14601
+2024-07-29 10:09:16,736 [INFO] django.server: "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 16630
+2024-07-29 10:10:19,510 [INFO] django.server: "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+2024-07-29 10:10:19,528 [INFO] django.server: "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4742
+2024-07-29 10:10:19,733 [INFO] django.server: "GET /api/schema/ HTTP/1.1" 200 21935

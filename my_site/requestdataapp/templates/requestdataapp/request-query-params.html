@@ -1,0 +1,16 @@
+{% extends 'requestdataapp/base.html' %}
+
+{% block title %}
+    Demo requests params
+{% endblock %}
+
+{% block body %}
+    <h1>Goog morning, {% firstof request.GET.name 'User' %}</h1>
+    <div>
+        <pre>
+            a = '{{ a }}'
+            b = '{{ b }}'
+            result = '{{ result }}'
+        </pre>
+    </div>
+{% endblock %}

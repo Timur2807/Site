@@ -1,0 +1,22 @@
+{% extends 'old_store/base.html' %}
+{#{% load x %}#}
+
+{% block title %}
+  Product create
+{% endblock %}
+
+{% block body %}
+  <h1>Create a new product</h1>
+  <div>
+    <form method="post">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <button type="submit">Create</button>
+    </form>
+  </div>
+  <div>
+    <a href="{% url 'old_store:product_list' %}"
+    >Back to products list</a>
+  </div>
+
+{% endblock %}

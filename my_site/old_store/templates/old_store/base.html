@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+            Base Title
+        {% endblock %}
+    </title>
+  <link type="text/css" rel="stylesheet" href="{% static 'old_store/base.css' %}">
+</head>
+<body>
+
+ {% block body %}
+    Base Body
+ {% endblock %}
+
+<div>
+    {% now 'H:i' %}
+</div>
+
+<div>
+    {% now 'l' as current_weekday %}
+    Today is {{ current_weekday.lower }}
+</div>
+
+</body>
+</html>
